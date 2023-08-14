@@ -1,5 +1,9 @@
 package packageb
 
+import (
+	"errors"
+)
+
 type B struct {}
 
 func (b B) Check() error {
