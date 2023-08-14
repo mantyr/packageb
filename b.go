@@ -1,4 +1,4 @@
-package packagea
+package packageb
 
 type B struct {}
 
