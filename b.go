@@ -6,6 +6,6 @@ import (
 
 type B struct {}
 
-func (b B) Check() error {
-	return errors.New("test")
+func (b B) Check() (error, error){
+	return errors.New("test"), errors.New("test2")
 }
